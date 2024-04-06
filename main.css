@@ -1,0 +1,22 @@
+table thead th {
+    background: #fff;
+    color: #000
+}
+
+.table td,
+.table th {
+    padding: 10px 20px;
+}
+
+.table tbody tr:nth-child(-n+5) {
+    background: green;
+}
+
+.table tbody th {
+    border-bottom: 2px solid #009578;
+}
+
+.table tbody tr[symbol="usdd"] {
+    background: blue;
+
+}
